@@ -1,0 +1,13 @@
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  width: 80%;
+  text-align: center;
+  color: #7e7e7e;
+}
+.about p {
+  margin: 20px;
+}

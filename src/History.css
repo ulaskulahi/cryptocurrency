@@ -1,0 +1,27 @@
+.history {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.history-wrapper {
+  width: 80%;
+}
+.history img {
+  height: 865px;
+}
+.history-wrapper p {
+  margin: 45px;
+  color: #7e7e7e;
+  height: 100px;
+  overflow: auto;
+}
+@media (max-width: 1000px) {
+  .history img {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .history-wrapper p {
+    height: auto;
+  }
+}

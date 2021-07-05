@@ -1,0 +1,27 @@
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.details-wrapper {
+  height: min-content;
+  width: auto;
+
+  justify-content: left;
+}
+.details-wrapper img {
+  display: inline-block;
+  width: 100px;
+}
+.details-name {
+  padding-left: 25px;
+  display: inline-block;
+}
+
+.details-wrapper h1 {
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+.details-wrapper p {
+  color: #797979;
+}
